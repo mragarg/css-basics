@@ -1,27 +1,26 @@
 /*
 These are the styles for the whole document.
 */
+
 .main-title {
-    background: #000000;
+    background: rgba(255, 0, 0, 0.25);
     /* padding: 35px; */
     /* padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 35px;
     padding-left: 35px; */
     /* padding: 10px 35px; */
-    padding: 10px 35px 12px 25px;    /* Top Right Bottom Left */
+    /* Top Right Bottom Left */
+    /* padding: 10px 35px 12px 25px; */
+    margin-top: 20px;
     margin: 0;
 }
 
 .fancy-font, .navbar {
-    /*
-    Imported font from Google Fonts
-    */
+    /* Imported font from Google Fonts */
     font-family: 'Raleway', sans-serif;
-    color: #E8D4AE
-    /* 
-    Browse Adobe Color Picker for more accurate colors
-    */
+    color: white;
+    /* Browse Adobe Color Picker for more accurate colors */
 }
 
 .navbar ul {
@@ -46,8 +45,9 @@ li {
 
 .bg-image {
     background-image: url(../images/dark-theme-city-street.jpg);
-    height: 300px;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 20px;
 }
