@@ -2,5 +2,24 @@
 These are the styles for the whole document.
 */
 .main-title {
-    background: red;
+    background: #000000;
+    /* padding: 35px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px; */
+    /* padding: 10px 35px; */
+    padding: 10px 35px 12px 25px;    /* Top Right Bottom Left */
+    margin: 0;
+}
+
+.fancy-font, .navbar {
+    /*
+    Imported font from Google Fonts
+    */
+    font-family: 'Raleway', sans-serif;
+    color: #E8D4AE
+    /* 
+    Browse Adobe Color Picker for more accurate colors
+    */
 }
