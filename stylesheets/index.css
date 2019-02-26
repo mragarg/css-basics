@@ -23,3 +23,31 @@ These are the styles for the whole document.
     Browse Adobe Color Picker for more accurate colors
     */
 }
+
+.navbar ul {
+    padding-left: 0;
+}
+
+.navbar li {
+    color: green;
+    list-style: none;
+}
+
+li {
+    font-size: 24px;
+}
+
+.main-image {
+    width: 140px;
+}
+.main-image img {
+    width: 100%;
+}
+
+.bg-image {
+    background-image: url(../images/dark-theme-city-street.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
